@@ -1,0 +1,441 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Monseratt sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+
+    width: 100vw;
+    height: auto;
+    background: #ffffff;
+
+}
+
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+
+.pageHeader{
+    width: 100%;
+    height: 670px;
+
+    background-image: url('./images/hero-cover.1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gradient{
+    width: 100%;
+    height: 100%;
+    padding: 30px 200px 0;
+
+    background: linear-gradient(89.85deg,#000000 0.13% , #000000 0.14% , rgba(0,0,0,0)99.56%);
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.leftHeader{
+    align-items: center;
+    height: 52px;
+    width:600px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.aboutBrand{
+    width: 145px;
+    height: 32px;
+}
+
+.brandName{
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height, or 133% */
+
+    letter-spacing: 0.1px;
+
+    /* light-text-color */
+
+    color: #FFFFFF;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 52px;
+}
+
+.navigation a{
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color:#ffffff;
+    text-decoration: none;
+    
+}
+
+
+.loginBox{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 500px;
+
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    height: 52px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    letter-spacing: 0.2px;
+    color:#ffffff;
+    text-decoration: none;
+}
+
+.memberBtn{
+    width: 214px;
+    height: 52px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 25px;
+    gap:15px;
+    border: none;
+    margin-left: 45px;
+
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+
+    color:#ffffff;
+    background-color: #23a6f0;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 910px) {
+    .gradient {
+        padding: 30px 20px 0;
+    }
+
+    .header{
+        justify-content: center;
+    }
+}
+
+.info {
+    width: 599px;
+    height: auto;
+    margin-top: 159px;
+}
+
+.aboutService{
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color:#ffffff;
+}
+
+.serviceDescription{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color:#ffffff;
+    margin-top:35px;
+}
+
+.aboutMoreBtns{
+    display: flex;
+
+    margin-top:35px;
+}
+
+.getQuoteBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 36px;
+    gap:10px;
+    width: 185px;
+    height: 52px;
+    background: #23a6f0;
+    border-radius: 37px;
+    border:none;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+}
+
+.learnMoreBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 36px;
+    gap:10px;
+    width: 185px;
+    height: 52px;
+    background: none;
+    border-radius: 37px;
+    border:1px solid white;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.features{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 435px;
+    background: #252b42;
+}
+
+.bi{
+    color: #23a6f0;
+    font-size: 68px;
+    padding-top: 137px;
+    padding-bottom: 31px;
+}
+
+.featureHead{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.featureText{
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    padding-bottom: 136px;
+    text-align: center;
+}
+
+.wallet,
+.bookmark,
+.friend {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background: #8ec2f2;
+}
+
+.industry{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 112px;
+    padding-bottom: 12px;
+
+}
+
+.reviews{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    padding: 120px 162px 145px 240px;
+
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 40px;
+    gap:15px;
+    width: 450px;
+    height: 288px;
+    background: #ffffff;
+
+}
+
+.clientName{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing:0.1px;
+    color:#252b42;
+    padding-top: 0px;
+    }
+
+.specification{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color:#737373;
+    padding-bottom: 17px;
+}
+
+.stars {
+    display: flex;
+    padding-bottom: 17px;
+}
+
+.stars :nth-child(1n +1){
+    font-size: 18px;
+    color: #f3c403;
+}
+
+.circle-area {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.circle-photo {
+    position: absolute;
+    top: -2px;
+    left: -85px;
+}
+
+.reviewText {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+}
+
+.insuranceServices{
+    background: #252b42;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.service {
+    width: 331px;
+    height: 452px;
+}
+
+.service1 , .service2 , .service3 , .service4{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.service1 {
+    background-image: url("images/post.1.jpg");
+}
+
+.service2{
+    background-image: url("images/post.2.jpg");
+}
+.service3{
+    background-image: url("images/post.3.jpg");
+}
+.service4{
+    background-image: url("images/post.4.jpg");
+}
+
+.postGradient{
+    background: linear-gradient(180deg, rgba(0,0,0,,0) 14.58%, rgba(56,56,56,0.84) 100%);
+}
+
+
+.post {
+    width: 100%;
+    height: auto;
+    padding-top: 278px;
+    padding-left: 20px;
+    padding-bottom: 18px;
+}
+
+.tax{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+.insTypes{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    text-shadow: 0px 13px 19px rgba(0,0,0,0.24);
+    padding-bottom: 15px;
+    width: 237px;
+}
+
+
+
+.viewBtn{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    padding:10px 36px;
+    gap:10px;
+    background: #23a6f0;
+    border-radius: 37px;
+    border:none;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color:#ffffff;
+
+}
