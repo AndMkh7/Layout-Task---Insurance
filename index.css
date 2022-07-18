@@ -352,8 +352,8 @@ body {
 }
 .circle-photo {
     position: absolute;
-    top: 100px;
-    left: 90px;
+    top: -5px;
+    left: -90px;
 }
 
 
@@ -865,7 +865,11 @@ body {
     letter-spacing: 0.2px;
 
     color: #FFFFFF;
-    }
+}
+
+.contactUsBtn:hover{
+    background-color: #3e8e41
+}
 
 .consultingTexts{
     display: flex;
