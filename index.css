@@ -12,7 +12,7 @@ body {
 
 .container{
 
-    width: 100vw;
+    width: calc(100vw - 15px);
     height: auto;
     background: #ffffff;
 
