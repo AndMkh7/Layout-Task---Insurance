@@ -1003,3 +1003,9 @@ body {
     padding-left: 22px;
     padding-right: 22px;
 }
+
+@media only screen and (max-width: 1200px){
+    .gradient {
+        padding: 50px 100px;
+    }
+}
